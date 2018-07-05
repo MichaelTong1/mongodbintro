@@ -4,7 +4,8 @@ var mongo = require('mongodb').MongoClient;
 var objectId = require('mongodb').ObjectID;
 var assert = require('assert');
 
-var url = 'mongodb://localhost:27017/test';
+// This is where the database is stored, via MongoDB
+var url = '';
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
